@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+   
+    --blue:#0563f6;
+    --text-color:#253858;
+    --font-family:'Roboto', sans-serif;
+    --lato:'Lato', sans-serif;
+}
+/* ========================navbar===================== */
+
+.list-group p{
+    color: var(--blue);
+    font-weight: 500;
+
+}
+li a{
+
+    color: var(--text-color)!important;
+}
+.list-group-item{
+    color: var(--text-color);
+}
+.term-ins{
+color: var(--blue);
+
+}
+.investment{
+color: pink;
+}
+.health-ins{
+color: red;
+}
+.car-ins{
+color: grey;
+}
+.two-wheelers{
+    color: rgb(58, 53, 53);  
+}
+/*=======================support========================= */
+.my-btn{
+    padding: 10px 40px ;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 30px;
+
+}
+.policies{
+color: rgb(179, 214, 126);
+
+}
+.help{
+color: #5084dd;
+}
+.advisor{
+color: rgb(92, 228, 92);
+}
+.verify{
+color: rgba(0, 0, 255, 0.497);
+}
+.policies,.help,.advisor,.verify{
+    font-size: 20px ;
+}
+.btn-outline-primary{
+    font-size: 16px!important;
+    font-weight: 600;
+    color: black!important;
+    list-style: none!important;
+}
+/* ===============hero section========== */
+  .swiper-slide img{
+    border-radius: 30px;
+   }
+   .hero-column{
+    display: flex;
+    line-height: 1.5;
+   }
+   .heading-main{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #253858fd;
+    letter-spacing: 5px;
+   }
+    .heading-main span{
+    color:#253858fd;
+    font-weight: 600;
+    }
+   .main-p{
+    padding-top: 20px;
+    text-align: center;
+   }
+  .price{
+    
+   color: rgb(175, 143, 3);
+
+   }
+
+.price .fa-solid{
+ padding: 10px;
+font-size: 25px;
+border-radius: 50%;
+
+color: rgb(175, 143, 3);
+border: 2px solid rgb(175,143,3);
+
+}
+     .free {
+
+    color: rgb(185, 36, 185);
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+   .free .fa-solid{
+
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 50%;
+    
+    color: rgb(185, 36, 185);;
+    border: 2px solid rgb(185, 36, 185);;
+    
+    }
+    .insurance-para{
+        padding-top: 20px;
+        line-height: 1.5;
+        color: var(--text-color);
+    }
+
+    /* ===================also-buy========================= */
+    .also-buy{
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 500;
+        color: var(--blue);
+        font-family: var(--font-family);
+    }
+     .content-container{
+        
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       
+    } 
+    .content li{
+    color: darkgoldenrod;
+    }
+    .content-container .content{
+        
+        background-color: #fff;
+        padding: 30px 40px ;
+        border-radius: 10px;
+        box-shadow:    1px 1px 50px #dfeafc;
+    }
+    /* ====================swiper============================== */
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    
+    /* ================what is health insurance============================== */
+    .what-health-ins h1{
+
+        font-family: var(--lato);
+        color: var(--text-color);
+        text-align: center;
+    }
+    .what-health-ins h1 span{
+
+         color: #2D3CD9;
+
+    }
+    .icon{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .features-container p {
+        padding: 20px ;
+    }
+    
+    .features-icon-container p{
+        padding: 20px ;
+    }
+/* ============why-do-I-need-health-insurance-plan========================== */
+.why-need-healthcare h1{
+
+    font-family: var(--lato);
+    color: var(--text-color);
+    text-align: center;
+}
+.why-need-healthcare span{
+
+    color: #2D3CD9;
+}
+
+.icon span{
+    background-color: #2D3CD9;
+    border-radius: 50%;
+    padding: 20px;
+    
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.icon{
+    padding: 20px;
+    text-align: center;
+}
+
+.why-need-img-container p {
+    padding: 20px ;
+}
+
+.why-need-img-container  p{
+    padding: 20px ;
+}
+.why-need-container2 p {
+    padding: 20px ;
+}
+
+
+.explore-btn{
+    margin-top: 20px;
+    padding: 10px 40px;
+    background-color: #2D3CD9;
+    border: none;
+    color: #fff;
+}
+/* ==================buy insurance========================================== */
+.my-container{
+    margin-top: 100px;
+    background-color: #2D3CD9;
+}
+.my-container h1{
+    padding-top: 20px;
+    line-height: 1.5;
+    color: #fff;
+}
+.my-container p{
+    padding: 10px;
+    color: #fff;
+}
+.buy-btn{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2D3CD9;
+}
+
+
+
+
+
+
+
+
+
+
+/* =====================best-health-insurance======================== */
+    .best-health-insurance{
+    margin-top: 100px!important;
+}
+
+.best-health-insurance h1{
+    text-align: center;
+    font-family: var(--lato);
+    color: var(--text-color);
+
+}
+.best-health-insurance h1 span{
+
+  color: #2D3CD9;
+
+
+
+}
+.card-body{
+    border: 2px solid rgba(200, 188, 188, 0.304);
+}
+
+
+.card-subtitle1{
+    font-size: 20px;
+    padding:20px 0px;
+    color: #070707;
+    
+}
+.list{
+    height: auto;
+    padding-bottom: 10px;
+    
+
+}
+.card-btn{
+    border: none;
+    padding: 10px 50px;
+
+    background-color: #2d3bd9da;
+    color: #fff;
+
+}
+
+.swiper-navBtn{
+    font-size: 10px!important;
+    color: #fff!important;
+    background-color: rgba(0, 42, 255, 0.706)!important;
+    
+    padding: 20px 20px;
+    border-radius: 50%;
+  
+  }
+  .swiper-navBtn:hover{
+    color: #fff!important;
+    background-color: rgba(0, 42, 255, 0.706)!important;
+    
+    
+  }
+  .swiper-navBtn::after,
+  .swiper-navBtn::before{
+    font-size: 20px!important;
+    font-weight: bold!important;
+  }
+
+
+    /* ===================the-best-place============================ */
+    .the-best-place{
+        background: url(img/banner1.png);
+    }
+    .best-insu-place h1{
+        font-size: 40px;
+
+         font-family: var(--lato); 
+        font-weight: 400!important;
+        text-align: left;
+        padding: 100px;
+        word-spacing: 10;
+        
+
+    }
+    .best-insu-place h1 span{
+font-family: var(--lato);
+      font-weight: 700;
+
+    }
+    .card-body-cele{
+        border-left:4px solid #2D3CD9;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px 4px #e9eff9;
+
+    }
+    .card-body-cele h5{
+        color: #2D3CD9;
+        font-weight: 700;
+        line-height: 2;
+        border-radius: 10px;
+            } 
+    .card-body-search{
+         border-left:4px solid #0BBDF2;
+         border-radius: 10px;
+         box-shadow: 2px 2px 10px 4px #e9eff9;
+    }
+    .card-body-search h5{
+        color: #0BBDF2;
+        font-weight: 700;
+        line-height: 2;
+            }
+    .card-body-smiley{
+        border-left:4px solid #47D990;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px 4px #e9eff9;
+    }
+    .card-body-smiley h5{
+        color: #47D990;
+        font-weight: 700;
+        line-height: 2;
+            }
+    .card-body-girl{
+        border-left: 4px solid #FFC400;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px 4px #e9eff9;
+    }
+    .card-body-girl h5{
+        color: #FFC400;
+        font-weight: 700;
+        line-height: 2;
+    }
+    .card-body-cele,.card-body-search,.card-body-smiley,.card-body-girl, .card-text{
+        font-size: 12px;
+    opacity: 10;
+    line-height: 18px;
+        
+        padding-bottom: 20px;
+    }
+    .card-body-cele,.card-body-search,.card-body-smiley,.card-body-girl{
+        padding: 10px !important;
+    }
+    /* ==================insurance terms======================= */
+    .ins-terms h1{
+        font-size: 30px;
+
+        font-family: var(--lato); 
+       font-weight: 400!important;
+       text-align: center;
+       padding: 100px ;
+       word-spacing: 10;
+       
+    }
+    .ins-terms h1 span{
+     font-family: var(--lato);
+      font-weight: 700;
+      color: #2D3CD9;
+
+    }
+    .card-body-term{
+    background-color: #fff;
+
+    }
+    .card-body-term h5{
+    font-size: 25px;
+    }
+    .card-body-term p{
+    line-height: 1.5;
+    font-size: 14px;
+    font-family: var(--lato);
+    }
+    .card-body-term a{
+        background-color: #0563f6!important;
+        color: #fff;
+        font-size: 16px;
+
+    }
+
+
+
+/* ==================footer-section=========================== */
+    footer{
+        padding-top: 80px ;
+        padding-bottom: 20px;
+        background: linear-gradient(rgba(2, 12, 20, 0.8), rgba(3, 14, 22, 0.8)), url(../img/bg_banner1.jpg);
+        color: #fff;
+        text-align: center;
+     }
+     footer .navbar-brand{
+        color: #fff;
+        margin-bottom: 20px;
+        display: inline-block;
+     }
+     .footer-top{
+        margin-bottom: 40px;
+     }
+     .footer-bottom{
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        padding-top: 20px;
+        
+     }
+     footer .social-link a{
+           margin:5px;
+        margin-left: 5px; 
+        color: #fff;
+        font-size: 20px;
+     }
+     footer .social-link a:hover{
+        color: #2D3CD9;
+     }
+     @media screen and (max-width:769px){
+
+        .hero-column{
+            flex-direction: column;
+            
+        }
+        .main-p{
+            text-align: left;
+            line-height: 1.5;
+            padding-bottom: 20px;
+        }
+        .features-container{
+            flex-direction: column;
+        }
+        .features-icon-container{
+            flex-direction: column;
+        }
+       .why-need-img-container{
+
+         flex-direction: column;
+        }
+        .why-need-container2{
+            flex-direction: column;
+        }       
+     }
+     
+     @media screen and (max-width: 400px) {
+       
+        .heading-main{
+
+            font-size: 35px;
+            font-family: var(--lato);
+            font-weight: 300;
+            color: #253858fd;
+            letter-spacing: 0px;
+            line-height: 2;
+
+        }
+        .main-p{
+            text-align: left;
+            line-height: 1.5;
+            padding-bottom: 20px;
+        }
+        .ins-terms h1{
+       font-size: 30px;
+     padding: 100px 0px;
+
+        }
+        .need-para{
+            padding-top: 30px;
+        }
+        .hero-column{
+            flex-direction: column;
+            
+        }
+        .content{
+            margin: 10px;
+        }
+        
+        .heading-column p{
+            text-align: left;
+        }
+
+        .heading-main span{
+            color:#253858fd;
+            font-weight: 600;
+        }
+        .features-container{
+            flex-direction: column;
+        }
+        .features-icon-container{
+            flex-direction: column;
+        }
+       .why-need-img-container{
+
+         flex-direction: column;
+        }
+        .why-need-container2{
+            flex-direction: column;
+        }
+
+     }
+    
